@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-hiking"></i>travel</a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shop">Shop</a>
+            <a href="#packages">Packages</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="search-btn" class="fas fa-search"></div>
+        </div>
+    </header>
+
+    <div class="search-form">
+        <div id="close-search" class="fas fa-times" ></div>
+        <form action="">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+    </div>
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/font1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>never stop</span>
+                        <h3>exploring</h3>
+                        <p class="p1">Exploring is a transformative journey, venturing into the unfamiliar to discover diverse landscapes and cultures, fostering personal growth through unexpected encounters and experiences.</p>
+                            <a href="#" class="btn" >get started</a>
+                    </div>
+                </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box second" style="background: url(images/front2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>make tour</span>
+                        <h3>amazing</h3>
+                        <p>To make a tour amazing, immerse yourself in local culture, savor unique experiences, and embrace spontaneity, creating lasting memories beyond conventional sightseeing.</p>
+                            <a href="#" class="btn" >get started</a>
+                    </div></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/front3.jpg) no-repeat;">
+                    <div class="content">
+                        <span>explore the</span>
+                        <h3>new world</h3>
+                        <p>Embark on an exhilarating journey to explore the new world, where uncharted territories promise discovery, adventure, and the thrill of stepping into the unknown, unveiling the extraordinary.</p>
+                            <a href="#" class="btn" >get started</a>
+                    </div></div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="category">
+        <h1 class="heading">adventure idea!</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/jump.jpg" alt="">
+                <h3>bungee jump</h3>
+                <p>Bungee jumping is a thrilling activity involving a free fall.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/zig.jpg" alt="">
+                <h3>zip lines</h3>
+                <p>Zip lines offer an exhilarating ride and gliding.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/dayhiking.jpeg" alt="">
+                <h3>day hiking</h3>
+                <p>Day hiking involves exploring nature trails and landscapes.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/kayaking.jpg" alt="">
+                <h3>kayaking</h3>
+                <p>Kayaking is a water sport where individuals paddle in small boats.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="image">
+            <img src="images/about.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>memorable outdoor experiences</h3>
+            <p>In the heart of nature, where sunlight filters through the leaves, a memorable outdoor experience unfolds. The crisp air carries the scent of pine, while the rustling leaves provide a symphony of tranquility. Trails meander through lush landscapes, leading to hidden vistas that reward the intrepid explorer. A babbling brook offers a refreshing pause, and wildlife sightings add an element of surprise. Campfires flicker under a canvas of stars, casting a warm glow on shared stories and laughter. Sunrise paints the sky in hues of gold, marking the beginning of a new day of exploration. Adrenaline surges during thrilling activities like zip-lining or kayaking, creating lasting memories. The serene solitude of a mountain summit contrasts with the camaraderie around a campfire. As dusk falls, the nocturnal symphony of crickets and owls sets the stage for a peaceful night's rest, completing a truly unforgettable outdoor experience.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
